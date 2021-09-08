@@ -9,7 +9,7 @@ function App() {
   const [foodMenu, setFoodMenu] = useState([
     {
       c_id: 1,
-      img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG",
+      c_img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG",
       category: "soups",
       items: [{
         i_id: 1,
@@ -35,7 +35,7 @@ function App() {
       ]
     }, {
       c_id: 2,
-      img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG",
+      c_img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG",
       category: "main course",
       items: [{
         i_id: 1,
@@ -61,7 +61,7 @@ function App() {
       ]
     }, {
       c_id: 3,
-      img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG",
+      c_img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG",
       category: "tandoori starters",
       items: [{
         i_id: 1,
@@ -103,7 +103,7 @@ function App() {
                 <h2 className="accordion-header" id="panelsStayOpen-headingOne">
                   <button className="accordion-button collapsed p-0 pe-3" type="button" data-bs-toggle="collapse" data-bs-target={"#panelsStayOpen-collapse" + data.c_id} aria-expanded="true" aria-controls={"panelsStayOpen-collapse" + data.c_id} >
                     <div className="d-flex align-items-center justify-content-center">
-                      <img src={data.img} alt="Soups" className="img-fluid menu-img rounded me-3" />
+                      <img src={data.c_img} alt="Soups" className="img-fluid menu-img rounded me-3" />
                       <h4 className="mb-0">{data.category}</h4>
                     </div>
                   </button>
