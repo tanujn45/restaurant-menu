@@ -9,15 +9,72 @@ h6 {
   font-family: "IBM Plex Sans Thai", sans-serif;
 }
 
-.logo {
-  width: 150px;
+body {
+  background: #f8f8f8d0;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.1rem;
 }
 
 h5 {
-  margin-bottom: 0 !important;
-  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 0.9rem;
 }
 
 h6 {
   text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-bottom: 0;
+}
+
+.accordian-button {
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 30px;
+}
+
+/* .accordion {
+  border: none ;
+} */
+
+.menu-img {
+  width: 130px;
+  height: 100px;
+  object-fit: fill;
+}
+
+.vnveg {
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
+#footer {
+  padding-bottom: 30px;
+}
+
+#footer p {
+  font-size: 0.8rem;
+}
+
+.w-logo {
+  width: 90px;
 }
