@@ -59,6 +59,32 @@ function App() {
         price: '100',
       },
       ]
+    }, {
+      c_id: 3,
+      img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG",
+      category: "tandoori starters",
+      items: [{
+        i_id: 1,
+        vn: 'veg',
+        name: 'Lemon Corriander Soup',
+        price: '100',
+      }, {
+        i_id: 2,
+        vn: 'veg',
+        name: 'Tandoori Ashmeet Singh Hora',
+        price: '100',
+      }, {
+        i_id: 3,
+        vn: 'nveg',
+        name: 'Lemon Corriander Soup',
+        price: '100',
+      }, {
+        i_id: 4,
+        vn: 'nveg',
+        name: 'Lemon Corriander Soup',
+        price: '100',
+      },
+      ]
     }
   ])
   return (
