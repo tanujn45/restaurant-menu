@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;600;700&display=swap");
 
+.container{
+  height: 100vh;
+  padding: 10px;
+}
+
 h1,
 h2,
 h3,
@@ -21,6 +26,13 @@ h4 {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 1.1rem;
+}
+.logo2{
+  width: 100%;
+  height: auto;
+}
+h2{
+  font-weight: bold !important;
 }
 
 h5 {
