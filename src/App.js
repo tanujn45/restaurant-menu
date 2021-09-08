@@ -128,7 +128,6 @@ function App() {
               </div>
             ))}
           </div>
-          <img src={img} alt="Logo" className="logo2 img-fluid" />
         </div>
       </section>
       <footer id="footer">
