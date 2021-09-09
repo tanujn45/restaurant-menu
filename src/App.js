@@ -90,7 +90,7 @@ function App() {
       c_id: 2,
       c_img:
         "https://saladswithanastasia.com/wp-content/uploads/2020/10/GREEN-CORAL-SALAD-FEATURED-1.jpg",
-      category: "  SALAD       ",
+      category: "SALAD",
       items: [
         {
           i_id: 1,
@@ -147,7 +147,7 @@ function App() {
       c_id: 3,
       c_img:
         "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/09/raita-500x500.jpg",
-      category: " RAITA & CURD    ",
+      category: "RAITA & CURD",
       items: [
         {
           i_id: 1,
@@ -198,7 +198,7 @@ function App() {
       c_id: 4,
       c_img:
         "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/06/vegetable-soup.jpg",
-      category: " SOUP VEG.	 ",
+      category: "SOUP VEG.",
       items: [
         {
           i_id: 1,
@@ -883,7 +883,7 @@ function App() {
           name: "PANEER STEAK SIZZLER",
           price: "250.00 ",
         },
-       
+
       ],
     },
 
@@ -1292,7 +1292,7 @@ function App() {
     },
 
     {
-      c_id: 12,
+      c_id: 13,
       c_img:
         "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/Articles/High_Protein_Indian_Vegetarian_Main_Course_Recipes_For_Body_Building__Weight_Loss.png",
       category: "MAIN COURES VEG",
@@ -1565,7 +1565,7 @@ function App() {
     },
 
     {
-      c_id: 13,
+      c_id: 14,
       c_img:
         "https://c.ndtvimg.com/2020-05/0ug0nbfo_chicken-masala_625x300_28_May_20.jpg",
       category: "MAIN COURES NON VEG",
@@ -1766,7 +1766,7 @@ function App() {
     },
 
     {
-      c_id: 14,
+      c_id: 15,
       c_img:
         "https://www.thespruceeats.com/thmb/GLt4uTZua2Ck9IDxAl-W3XeZ624=/4145x3109/smart/filters:no_upscale()/naan-leavened-indian-flatbread-1957348-final-08-116a2e523f6e4ee693b1a9655784d9b9.jpg",
       category: "INDIAN BREAD",
@@ -1901,7 +1901,7 @@ function App() {
     },
 
     {
-      c_id: 15,
+      c_id: 16,
       c_img:
         "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/egg-fried-rice-recipe-500x500.jpg",
       category: "RICE",
@@ -2018,7 +2018,7 @@ function App() {
     },
 
     {
-      c_id: 16,
+      c_id: 17,
       c_img:
         "https://www.cookwithmanali.com/wp-content/uploads/2014/09/Moong-Dal-500x375.jpg",
       category: "DAL PREPARATION",
@@ -2063,8 +2063,8 @@ function App() {
     },
 
     {
-      c_id: 17,
-      c_img:"https://static.toiimg.com/thumb/63799510.cms?imgsize=1091643&width=800&height=800",
+      c_id: 18,
+      c_img: "https://static.toiimg.com/thumb/63799510.cms?imgsize=1091643&width=800&height=800",
       category: "DESERTS",
       items: [
         {
@@ -2102,11 +2102,11 @@ function App() {
             <h3 className="text-danger font-bold">Pishori Dhaba</h3>
           </div>
 
-         <img
+          <img
             src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG"
             alt="Paneer Tikka"
             className="img-fluid rounded mb-4"
-          /> 
+          />
 
           <div className="accordion">
             {foodMenu.map((data) => (
@@ -2145,7 +2145,7 @@ function App() {
                             ) : (
                               <img src={nveg} alt="nveg" className="vnveg" />
                             )}
-                            <h5 className="mb-0">{food.name}</h5>
+                            <h5 className="mb-0 text-capitalize">{food.name}</h5>
                           </div>
                           <div className="col-2 mb-3">
                             <h6>&#x20B9; {food.price}</h6>
