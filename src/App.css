@@ -78,3 +78,11 @@ h6 {
 .w-logo {
   width: 90px;
 }
+
+#carousel-swiper img {
+  max-height: 240px;
+}
+
+.logo-pishori img {
+  max-width: 230px;
+}
