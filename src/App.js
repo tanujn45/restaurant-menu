@@ -43,7 +43,7 @@ function App() {
         {
           i_id: 3,
           vn: "veg",
-          name: "SOFT DRINK	",
+          name: "SOFT DRINK",
           price: "30.00",
         },
         {
@@ -67,7 +67,7 @@ function App() {
         {
           i_id: 7,
           vn: "veg",
-          name: "FRESH LIME SODA	",
+          name: "FRESH LIME SODA",
           price: "50.00",
         },
         {
@@ -79,13 +79,13 @@ function App() {
         {
           i_id: 9,
           vn: "veg",
-          name: "LASSI (SWEET OR SALTED)	",
+          name: "LASSI (SWEET OR SALTED)",
           price: "40.00",
         },
         {
           i_id: 10,
           vn: "veg",
-          name: "BUTTER MILK	",
+          name: "BUTTER MILK",
           price: "40.00",
         },
         {
