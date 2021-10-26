@@ -19,6 +19,7 @@ import carouselPic1 from './img/carousel/Pishori_pic1.png';
 import carouselPic2 from './img/carousel/Pishori_pic2.png';
 import carouselPic3 from './img/carousel/Pishori_pic3.png';
 import carouselPic4 from './img/carousel/Pishori_pic4.png';
+import Drinks from "./Drinks";
 
 SwiperCore.use([Pagination, Autoplay, EffectFade]);
 function App() {
@@ -2209,6 +2210,8 @@ function App() {
               </div>
             ))}
           </div>
+
+          <Drinks />
         </div>
       </section>
       <footer id="footer">
