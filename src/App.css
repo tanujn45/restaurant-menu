@@ -86,3 +86,98 @@ h6 {
 .logo-pishori img {
   max-width: 230px;
 }
+.category-heads{
+  left: 89px;
+  top: 528px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+}
+.menu-headings .nav-link{
+  background-color: transparent;
+  width: 149px;
+height: 41px;
+  border: 1.5px solid #C83131;
+box-sizing: border-box;
+border-radius: 7px 7px 0px 0px;
+color: #C83131;
+
+}
+.food-menu-item{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 16px;
+  color: #000000;
+}
+.food-menu-price{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  color: #000000;
+}
+.food-menu-subitem{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #5B5B5B;
+
+}
+.menu-headings{
+  border-bottom: 2px solid #C83131;
+}
+
+.menu-headings>li.active>a,.menu-headings>li.active>a:focus,.menu-headings>li.active>a:hover{
+  width: 150px;
+  color: #FFFFFF;
+  height: 41px;
+  background:#C83131;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 7px 7px 0px 0px;
+
+}
+.menu-headings a{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.drinks-headings{
+  width: 47px;
+  height: 23px;
+  left: 89px;
+  top: 528px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #000000;
+}
+.drinks-img{
+
+border-radius: 0px;
+transform: matrix(-1, 0, 0, 1, 0, 0)
+}
+@media screen and (max-width:425px){
+  .drink-price{
+    width:17.667668% !important
+  }
+}

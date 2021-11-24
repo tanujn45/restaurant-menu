@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { data } from "./DrinkData";
+import { data } from "./drinksdata";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Autoplay, EffectFade } from "swiper/core";
 import "swiper/components/pagination/pagination.scss";
