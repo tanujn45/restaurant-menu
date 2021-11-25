@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 h1,
 h2,
@@ -55,8 +56,8 @@ h6 {
 } */
 
 .menu-img {
-  width: 130px;
-  height: 100px;
+  width: 105px;
+  height: 85px;
   object-fit: fill;
 }
 
@@ -79,14 +80,15 @@ h6 {
   width: 90px;
 }
 
-#carousel-swiper img {
+.carousel-swiper img {
   max-height: 240px;
 }
 
 .logo-pishori img {
-  max-width: 230px;
+  max-width: 150px;
 }
-.category-heads{
+
+.category-heads {
   left: 89px;
   top: 528px;
   font-family: Poppins;
@@ -96,25 +98,45 @@ h6 {
   line-height: 22px;
   color: #000000;
 }
-.menu-headings .nav-link{
+
+/* .menu-headings .nav-link {
   background-color: transparent;
   width: 149px;
-height: 41px;
-  border: 1.5px solid #C83131;
-box-sizing: border-box;
-border-radius: 7px 7px 0px 0px;
-color: #C83131;
+  height: 41px;
+  border: 1.5px solid #c83131;
+  box-sizing: border-box;
+  border-radius: 7px 7px 0px 0px;
+  color: #c83131;
+} */
 
+.nav-item {
+  border: 2px solid #c83131;
+  border-radius: 4px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
 }
-.food-menu-item{
-  font-family: Poppins;
+
+.nav-link {
+  color: #c83131;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background-color: #c83131;
+  border-radius: 1px;
+}
+
+.food-menu-item {
   font-style: normal;
   font-weight: bold;
   font-size: 11px;
   line-height: 16px;
   color: #000000;
 }
-.food-menu-price{
+.food-menu-price {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -122,47 +144,49 @@ color: #C83131;
   line-height: 16px;
   color: #000000;
 }
-.food-menu-subitem{
+.food-menu-subitem {
   font-family: Poppins;
-font-style: normal;
-font-weight: 300;
-font-size: 11px;
-line-height: 16px;
-/* identical to box height */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 16px;
+  /* identical to box height */
 
-
-color: #5B5B5B;
-
-}
-.menu-headings{
-  border-bottom: 2px solid #C83131;
+  color: #5b5b5b;
 }
 
-.menu-headings>li.active>a,.menu-headings>li.active>a:focus,.menu-headings>li.active>a:hover{
+/* .menu-headings {
+  border-bottom: 2px solid #c83131;
+} */
+
+/* .menu-headings > li.active > a,
+.menu-headings > li.active > a:focus,
+.menu-headings > li.active > a:hover {
   width: 150px;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 41px;
-  background:#C83131;
+  background: #c83131;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 7px 7px 0px 0px;
+} */
 
-}
-.menu-headings a{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 27px;
-/* identical to box height */
-color: #FFFFFF;
-}
-.drinks-headings{
+/* .menu-headings a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #ffffff;
+}  */
+
+.drinks-headings {
   width: 47px;
   height: 23px;
   left: 89px;
   top: 528px;
-  
+
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -171,13 +195,12 @@ color: #FFFFFF;
   /* identical to box height */
   color: #000000;
 }
-.drinks-img{
-
-border-radius: 0px;
-transform: matrix(-1, 0, 0, 1, 0, 0)
+.drinks-img {
+  border-radius: 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-@media screen and (max-width:425px){
-  .drink-price{
-    width:17.667668% !important
+@media screen and (max-width: 425px) {
+  .drink-price {
+    width: 17.667668% !important;
   }
 }

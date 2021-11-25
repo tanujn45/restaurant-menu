@@ -19,7 +19,6 @@ import carouselPic1 from './img/carousel/Pishori_pic1.png';
 import carouselPic2 from './img/carousel/Pishori_pic2.png';
 import carouselPic3 from './img/carousel/Pishori_pic3.png';
 import carouselPic4 from './img/carousel/Pishori_pic4.png';
-import Drinks from "./Drinks";
 
 SwiperCore.use([Pagination, Autoplay, EffectFade]);
 function App() {
@@ -213,7 +212,7 @@ function App() {
       c_id: 4,
       c_img:
         "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/06/vegetable-soup.jpg",
-      category: "SOUP VEG.",
+      category: "SOUP VEG",
       items: [
         {
           i_id: 1,
@@ -275,7 +274,7 @@ function App() {
       c_id: 5,
       c_img:
         "https://im.rediff.com/getahead/2016/jan/13paya-soup.jpg",
-      category: "SOUP NON VEG.",
+      category: "SOUP NON VEG",
       items: [
         {
           i_id: 1,
