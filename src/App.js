@@ -2210,8 +2210,6 @@ function App() {
               </div>
             ))}
           </div>
-
-          <Drinks />
         </div>
       </section>
       <footer id="footer">
