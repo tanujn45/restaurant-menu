@@ -36,21 +36,21 @@ const NewDrinks = () => {
         </div>
       </section>
       {/* botstrap navs and tabs */}
-      <div class="container">
-        <div class="tab-content container">
-          <ul class="nav-pills nav nav-fill">
-            <li class="nav-item active me-2">
-              <a href="#foodtab" class="nav-link" data-toggle="tab">
+      <div className="container">
+        <div className="tab-content container">
+          <ul className="nav-pills nav nav-fill">
+            <li className="nav-item active me-2">
+              <a href="#foodtab" className="nav-link" data-toggle="tab">
                 Food
               </a>
             </li>
-            <li class="nav-item ms-2">
-              <a href="#drinktab" class="nav-link" data-toggle="tab">
+            <li className="nav-item ms-2">
+              <a href="#drinktab" className="nav-link" data-toggle="tab">
                 Liquor
               </a>
             </li>
           </ul>
-          <div class="tab-pane active" id="foodtab">
+          <div className="tab-pane active" id="foodtab">
             <br></br>
 
             <Swiper loop autoplay className="carousel-swiper">
@@ -115,15 +115,12 @@ const NewDrinks = () => {
                     aria-labelledby="panelsStayOpen-headingOne"
                   >
                     <div className="accordion-body">
-
                       <div className="row align-items-center">
-                        <div className="col-9 mb-3 d-inline-flex align-items-center">
-
-                        </div>
-                        <div className="col-3 mb-3 newprice" >
-                        <h6 className="food-menu-price newprice1" >
-                          cost ( in &#x20B9; )
-                              </h6>
+                        <div className="col-9 mb-3 d-inline-flex align-items-center"></div>
+                        <div className="col-3 mb-3 newprice">
+                          <h6 className="food-menu-price newprice1">
+                            cost ( in &#x20B9; )
+                          </h6>
                         </div>
                       </div>
 
@@ -146,9 +143,7 @@ const NewDrinks = () => {
                               }`}
                             >
                               {console.log(food.price.length)}
-                              <h6 className="food-menu-price">
-                                {food.price}
-                              </h6>
+                              <h6 className="food-menu-price">{food.price}</h6>
                             </div>
                           </>
                         ))}
@@ -160,7 +155,7 @@ const NewDrinks = () => {
             </div>
           </div>
 
-          <div class="tab-pane" id="drinktab">
+          <div className="tab-pane" id="drinktab">
             <br></br>
             <Swiper loop autoplay className="carousel-swiper">
               <SwiperSlide>
@@ -225,15 +220,12 @@ const NewDrinks = () => {
                     aria-labelledby="panelsStayOpen-headingOne"
                   >
                     <div className="accordion-body">
-                      
-                    <div className="row align-items-center">
-                        <div className="col-9 mb-3 d-inline-flex align-items-center">
-
-                        </div>
-                        <div className="col-3 mb-3 newprice" >
-                        <h6 className="food-menu-price newprice1 " >
-                          cost ( in &#x20B9; )
-                              </h6>
+                      <div className="row align-items-center">
+                        <div className="col-9 mb-3 d-inline-flex align-items-center"></div>
+                        <div className="col-3 mb-3 newprice">
+                          <h6 className="food-menu-price newprice1 ">
+                            cost ( in &#x20B9; )
+                          </h6>
                         </div>
                       </div>
 
@@ -242,22 +234,22 @@ const NewDrinks = () => {
                           <>
                             <div className="col-9 mb-3 d-inline-flex align-items-center">
                               <div>
-
-                              <h5 className="mb-0 text-capitalize food-menu-item">
-                                {obj.name}
-                              </h5>
-                              <h6 className="mb-0 text-capitalize food-menu-subitem">
-                                {obj.name_s}
-                              </h6>
+                                <h5 className="mb-0 text-capitalize food-menu-item">
+                                  {obj.name}
+                                </h5>
+                                <h6 className="mb-0 text-capitalize food-menu-subitem">
+                                  {obj.name_s}
+                                </h6>
                               </div>
                             </div>
 
                             {console.log(obj.p_large.length)}
-                            <div className={`col-3 mb-3 ${obj.p_large.length<7 ? "text-nowrap  ":""}`}>
-                              
-                              <h6 className="food-menu-price">
-                                 {obj.p_large}
-                              </h6>
+                            <div
+                              className={`col-3 mb-3 ${
+                                obj.p_large.length < 7 ? "text-nowrap  " : ""
+                              }`}
+                            >
+                              <h6 className="food-menu-price">{obj.p_large}</h6>
                             </div>
                             {/* <div
                             

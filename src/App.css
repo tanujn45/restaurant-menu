@@ -11,7 +11,7 @@ h6 {
 }
 
 body {
-  background: #f8f8f8d0;
+  background: #f6f6f6;
 }
 
 h3 {
@@ -85,7 +85,7 @@ h6 {
 }
 
 .logo-pishori img {
-  max-width: 150px;
+  max-width: 100px;
 }
 
 .category-heads {
@@ -155,10 +155,10 @@ h6 {
 
   color: #5b5b5b;
 }
-.newprice{
+.newprice {
   margin-block-end: 7px;
 }
-.newprice1{
+.newprice1 {
   font-weight: bold;
 }
 /* .menu-headings {
