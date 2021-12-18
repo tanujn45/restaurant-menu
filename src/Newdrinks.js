@@ -115,10 +115,22 @@ const NewDrinks = () => {
                     aria-labelledby="panelsStayOpen-headingOne"
                   >
                     <div className="accordion-body">
+
+                      <div className="row align-items-center">
+                        <div className="col-9 mb-3 d-inline-flex align-items-center">
+
+                        </div>
+                        <div className="col-3 mb-3 newprice" >
+                        <h6 className="food-menu-price newprice1" >
+                          cost ( in &#x20B9; )
+                              </h6>
+                        </div>
+                      </div>
+
                       <div className="row align-items-center">
                         {data.items.map((food) => (
                           <>
-                            <div className="col-10 mb-3 d-inline-flex align-items-center">
+                            <div className="col-9 mb-3 d-inline-flex align-items-center">
                               {food.vn === "veg" ? (
                                 <img src={veg} alt="veg" className="vnveg" />
                               ) : (
@@ -129,13 +141,13 @@ const NewDrinks = () => {
                               </h5>
                             </div>
                             <div
-                              className={`col-2 mb-3  ${
+                              className={`col-3 mb-3  ${
                                 food.price.length < 7 ? "text-nowrap" : ""
                               }`}
                             >
                               {console.log(food.price.length)}
                               <h6 className="food-menu-price">
-                                &#x20B9; {food.price}
+                                {food.price}
                               </h6>
                             </div>
                           </>
@@ -213,18 +225,42 @@ const NewDrinks = () => {
                     aria-labelledby="panelsStayOpen-headingOne"
                   >
                     <div className="accordion-body">
+                      
+                    <div className="row align-items-center">
+                        <div className="col-9 mb-3 d-inline-flex align-items-center">
+
+                        </div>
+                        <div className="col-3 mb-3 newprice" >
+                        <h6 className="food-menu-price newprice1 " >
+                          cost ( in &#x20B9; )
+                              </h6>
+                        </div>
+                      </div>
+
                       <div className="row align-items-center">
                         {drink.items.map((obj) => (
                           <>
-                            <div className="col-10 mb-3 d-inline-flex align-items-center">
+                            <div className="col-9 mb-3 d-inline-flex align-items-center">
+                              <div>
+
                               <h5 className="mb-0 text-capitalize food-menu-item">
                                 {obj.name}
                               </h5>
                               <h6 className="mb-0 text-capitalize food-menu-subitem">
                                 {obj.name_s}
                               </h6>
+                              </div>
                             </div>
-                            <div
+
+                            {console.log(obj.p_large.length)}
+                            <div className={`col-3 mb-3 ${obj.p_large.length<7 ? "text-nowrap  ":""}`}>
+                              
+                              <h6 className="food-menu-price">
+                                 {obj.p_large}
+                              </h6>
+                            </div>
+                            {/* <div
+                            
                               className={`col-2 mb-3 ${
                                 obj.p_large.length < 7 ? "text-nowrap" : ""
                               } drink-price`}
@@ -232,7 +268,7 @@ const NewDrinks = () => {
                               <h6 className="food-menu-price">
                                 &#8377;{obj.p_large}
                               </h6>
-                            </div>
+                            </div> */}
                           </>
                         ))}
                       </div>

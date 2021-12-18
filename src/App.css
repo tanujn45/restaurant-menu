@@ -132,7 +132,7 @@ h6 {
 .food-menu-item {
   font-style: normal;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 10px;
   line-height: 16px;
   color: #000000;
 }
@@ -143,6 +143,7 @@ h6 {
   font-size: 11px;
   line-height: 16px;
   color: #000000;
+  margin-left: 9px;
 }
 .food-menu-subitem {
   font-family: Poppins;
@@ -154,7 +155,12 @@ h6 {
 
   color: #5b5b5b;
 }
-
+.newprice{
+  margin-block-end: 7px;
+}
+.newprice1{
+  font-weight: bold;
+}
 /* .menu-headings {
   border-bottom: 2px solid #c83131;
 } */
