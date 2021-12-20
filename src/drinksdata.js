@@ -134,7 +134,7 @@ export const drinkdata = [
         i_id: 2,
         name: "Honey Be",
         name_s: "",
-        p_large: "L:000.00, S:000.00",
+        p_large: "L:190.00, S:100.00",
       },
     ],
   },
