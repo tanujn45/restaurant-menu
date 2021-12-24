@@ -98,12 +98,6 @@ export const fooddata=[
             price: "60.00",
           },
           {
-            i_id: 3,
-            vn: "veg",
-            name: "SOFT DRINK",
-            price: "30.00",
-          },
-          {
             i_id: 4,
             vn: "veg",
             name: "DAHI KACHUMBER",
@@ -230,7 +224,7 @@ export const fooddata=[
           {
             i_id: 7,
             vn: "veg",
-            name: "VE. WONTON SOUP",
+            name: "VEG. WONTON SOUP",
             price: "70.00",
           },
           {
@@ -391,7 +385,7 @@ export const fooddata=[
             i_id: 15,
             vn: "veg",
             name: "CHEESE CANOPY",
-            price: "140.00",
+            price: "160.00",
           },
         ],
       },
@@ -528,13 +522,6 @@ export const fooddata=[
             vn: "veg",
             name: "CRISPY BABYCORN",
             price: "150.00",
-          },
-  
-          {
-            i_id: 21,
-            vn: "veg",
-            name: "VEG KOTHY",
-            price: "140.00",
           },
           {
             i_id: 22,
@@ -688,7 +675,7 @@ export const fooddata=[
           {
             i_id: 10,
             vn: "nveg",
-            name: "CHICKEN BULET",
+            name: "CHICKEN BULLET",
             price: "F:420.00, H:280.00",
           },
           {
@@ -886,7 +873,7 @@ export const fooddata=[
         c_id: 10,
         c_img:
           "https://i0.wp.com/www.bharatzkitchen.com/wp-content/uploads/2020/08/Soya-Kebab-.jpg?fit=640%2C355&ssl=1",
-        category: "VEG KABEB",
+        category: "VEG KABAB",
         items: [
           {
             i_id: 1,
@@ -945,7 +932,7 @@ export const fooddata=[
           {
             i_id: 10,
             vn: "veg",
-            name: "VEG SHEEK KABEB",
+            name: "VEG SEEKH KABAB",
             price: "180.00",
           },
           {
@@ -960,7 +947,7 @@ export const fooddata=[
         c_id: 11,
         c_img:
           "https://www.merisaheli.com/wp-content/uploads/2018/04/5301-1.jpg",
-        category: "NON VEG KABEB",
+        category: "NON VEG KABAB",
         items: [
           {
             i_id: 1,
@@ -989,7 +976,7 @@ export const fooddata=[
           {
             i_id: 5,
             vn: "nveg",
-            name: "SHAMI KABEB",
+            name: "SHAMI KABAB",
             price: "260.00",
           },
           {
@@ -1121,13 +1108,13 @@ export const fooddata=[
           {
             i_id: 27,
             vn: "nveg",
-            name: "GRILL CHICKEN CHEESE KABEB(8PCS)",
+            name: "GRILL CHICKEN CHEESE KABAB(8PCS)",
             price: "280.00",
           },
           {
             i_id: 28,
             vn: "nveg",
-            name: "BOTI CHICKEN KABEB",
+            name: "BOTI CHICKEN KABAB",
             price: "250.00",
           },
           {
@@ -1151,13 +1138,13 @@ export const fooddata=[
           {
             i_id: 32,
             vn: "nveg",
-            name: "MURG PISHORI SPE. KABEB ",
+            name: "MURG PISHORI SPE. KABAB ",
             price: "250.00",
           },
           {
             i_id: 33,
             vn: "nveg",
-            name: "MURG BANJARA KABEB",
+            name: "MURG BANJARA KABAB",
             price: "250.00",
           },
           {
@@ -1169,43 +1156,43 @@ export const fooddata=[
           {
             i_id: 35,
             vn: "nveg",
-            name: "MURG IRANI KABEB",
+            name: "MURG IRANI KABAB",
             price: "250.00",
           },
           {
             i_id: 36,
             vn: "nveg",
-            name: "MURG MULTANI KABEB",
+            name: "MURG MULTANI KABAB",
             price: "250.00",
           },
           {
             i_id: 37,
             vn: "nveg",
-            name: "MURG PAHADI KABEB",
+            name: "MURG PAHADI KABAB",
             price: "250.00",
           },
           {
             i_id: 38,
             vn: "nveg",
-            name: "MURG RESHMI KABEB",
+            name: "MURG RESHMI KABAB",
             price: "260.00",
           },
           {
             i_id: 39,
             vn: "nveg",
-            name: "MURG ACHARI KABEB",
+            name: "MURG ACHARI KABAB",
             price: "250.00",
           },
           {
             i_id: 40,
             vn: "nveg",
-            name: "CHICKEN TANGDI KABEB(2PCS)",
+            name: "CHICKEN TANGDI KABAB(2PCS)",
             price: "220.00",
           },
           {
             i_id: 41,
             vn: "nveg",
-            name: "TANGDI GULMOHAR KABEB",
+            name: "TANGDI GULMOHAR KABAB",
             price: "240.00",
           },
           {
@@ -1217,13 +1204,13 @@ export const fooddata=[
           {
             i_id: 43,
             vn: "nveg",
-            name: "CHICKEN SHEEK KABEB",
+            name: "CHICKEN SHEEK KABAB",
             price: "250.00",
           },
           {
             i_id: 44,
             vn: "nveg",
-            name: "MUTTON SHEEK KABEB",
+            name: "MUTTON SHEEK KABAB",
             price: "250.00",
           },
           {
@@ -1492,7 +1479,7 @@ export const fooddata=[
           {
             i_id: 34,
             vn: "veg",
-            name: "ALOO MATTER",
+            name: "ALOO MUTTER",
             price: "140.00",
           },
           {
@@ -1524,12 +1511,6 @@ export const fooddata=[
             vn: "veg",
             name: "BABY CORN MUSHROOM MASALA",
             price: "160.00",
-          },
-          {
-            i_id: 40,
-            vn: "veg",
-            name: "CHICKEN TANGDI KABEB(2PCS.)",
-            price: "220.00",
           },
           {
             i_id: 41,
@@ -1622,13 +1603,13 @@ export const fooddata=[
             i_id: 10,
             vn: "nveg",
             name: "CHICKEN CREAM",
-            price: "F:440, H:290",
+            price: "F:480, H:290",
           },
           {
             i_id: 11,
             vn: "nveg",
             name: "CHICKEN PATIYALA",
-            price: "F:440, H:290",
+            price: "F:490, H:290",
           },
           {
             i_id: 12,
@@ -1685,12 +1666,6 @@ export const fooddata=[
             price: "250.00",
           },
           {
-            i_id: 21,
-            vn: "nveg",
-            name: "nVEG. MAKHANWALA ",
-            price: "140.00",
-          },
-          {
             i_id: 22,
             vn: "nveg",
             name: "MUTTON SAGWALA",
@@ -1724,7 +1699,7 @@ export const fooddata=[
             i_id: 27,
             vn: "nveg",
             name: "FISH MASALA",
-            price: "260.00",
+            price: "270.00",
           },
           {
             i_id: 28,
@@ -1885,6 +1860,12 @@ export const fooddata=[
             name: "KASHMIRI NAAN ",
             price: "50.00",
           },
+          {
+            i_id: 22,
+            vn: "veg",
+            name: "MULLY/METHI PARATHA",
+            price: "25.00",
+          },
         ],
       },
   
@@ -1987,7 +1968,7 @@ export const fooddata=[
           {
             i_id: 16,
             vn: "veg",
-            name: "MATTER PANEER BIRYANI",
+            name: "MUTTER PANEER BIRYANI",
             price: "160.00",
           },
           {
