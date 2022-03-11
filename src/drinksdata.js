@@ -17,7 +17,7 @@ export const drinkdata = [
         i_id: 1,
         name: "Talisker/J.W Gold Lable",
         name_s: "",
-        p_large:"L:900.00, S:450.00",
+        p_large: "L:900.00, S:450.00",
       },
       {
         i_id: 2,
@@ -71,7 +71,7 @@ export const drinkdata = [
       {
         i_id: 10,
         name: "PREMIUM",
-        name_s: "Blenders Pride/Signature)",
+        name_s: "Blenders Pride/Signature/American Pride)",
         p_large: "L:190.00, S:100.00",
       },
       {
@@ -113,9 +113,21 @@ export const drinkdata = [
       },
       {
         i_id: 3,
-        name: "REGULAR",
+        name: "SUPREME REGULAR",
         name_s: "(Mc Dowell No.1/Old Monk)",
         p_large: "L:140.00, S:75.00",
+      },
+      {
+        i_id: 4,
+        name: "*",
+        name_s: "(TEQUILA(Shooters 50ml))",
+        p_large: "L:350.00, S:0",
+      },
+      {
+        i_id: 5,
+        name: "*",
+        name_s: "(BACARDI BREEZER(275ml))",
+        p_large: "L:200.00, S:0",
       },
     ],
   },
@@ -134,7 +146,7 @@ export const drinkdata = [
         i_id: 2,
         name: "Honey Be",
         name_s: "",
-        p_large: "L:190.00, S:100.00",
+        p_large: "L:000.00, S:000.00",
       },
     ],
   },
@@ -231,15 +243,15 @@ export const drinkdata = [
       },
       {
         i_id: 7,
-        name: "GOLDBERG.",
+        name: "TENSBERG.",
         name_s: "",
-        p_large: "350.00",
+        p_large: "470.00",
       },
     ],
   },
   {
     c_id: 7,
-    category: "wine",
+    category: "WINE",
     c_img: wine,
     items: [
       {
@@ -319,30 +331,36 @@ export const drinkdata = [
       },
       {
         i_id: 8,
+        name: "PLANTER'S PUNCH",
+        name_s: "(Rum based Cocktail with orange & pineapple juice) ",
+        p_large: "260.00",
+      },
+      {
+        i_id: 9,
         name: "MOJITO",
         name_s: "(White Rum,Mint Leaves,Lime,Suger,Ice Topped Soda) ",
         p_large: "260.00",
       },
       {
-        i_id: 9,
+        i_id: 10,
         name: " GIMLET",
         name_s: "(Gin based cocktail with orange juice) ",
         p_large: "260.00",
       },
       {
-        i_id: 10,
+        i_id: 11,
         name: "TOM COLLINS",
         name_s: "(Gin based cocktail lime, sweet & soda with ice) ",
         p_large: "260.00",
       },
       {
-        i_id: 11,
+        i_id: 12,
         name: "MARGERITA",
         name_s: "(Tequila,Lime Juice,Solt,Suger Syrup and Ice)",
         p_large: "410.00",
       },
       {
-        i_id: 12,
+        i_id: 13,
         name: "SUNRICE",
         name_s: "(Tequila,Orange Juice,Grenadine Syrup and Ice)",
         p_large: "410.00",
